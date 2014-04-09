@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rhombus to Circle</title>
+<script></script>
+<script type="text/javascript" src="js/work.js"></script>
+
+</head>
+
+<body>
+	 <canvas height="320" width="480" id="canvas">Браузер не поддерживает Canvas, обновите браузер</canvas>
+</body>
+
+<script type="text/javascript">
+var canvas = document.getElementById("canvas");
+if (canvas.getContext()){
+ var ctx = canvas.getContext('2d');
+ // здесь размещается код рисования на canvas
+ console.log(555)
+} else { 
+ // здесь размещается код, который обрабатывается если браузер не поддерживает Canvas API
+}
+</script>
+</html>
